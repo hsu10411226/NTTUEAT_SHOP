@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg3"
+    tools:context="com.example.pohan_pc.nttueat_shop.OrderManage">
+
+    <Button
+        android:id="@+id/New"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#4472ca"
+        android:textSize="20dp"
+        android:text="新訂單"
+        android:background="@drawable/background_login"/>
+
+    <Button
+        android:id="@+id/Process"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#4472ca"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/New"
+        android:text="處理中"
+        android:background="@drawable/background_login"/>
+
+    <Button
+        android:id="@+id/Take"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#4472ca"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/Process"
+        android:text="待取餐"
+        android:background="@drawable/background_login"/>
+
+    <ImageView
+        android:id="@+id/Update"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/Take"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@mipmap/refresh"
+        android:clickable="true"/>
+
+    <ListView
+        android:id="@+id/OrderList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/New" />
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/call_hamburger"
+            android:icon="@mipmap/icon3"
+            android:title="漢堡" />
+        <item
+            android:id="@+id/call_toast"
+            android:icon="@mipmap/icon9"
+            android:title="吐司" />
+        <item
+            android:id="@+id/call_cheesecake"
+            android:icon="@mipmap/icon12"
+            android:title="乳酪餅" />
+        <item
+            android:id="@+id/call_catchcake"
+            android:icon="@mipmap/icon3"
+            android:title="抓餅" />
+        <item
+            android:id="@+id/call_toastthick"
+            android:icon="@mipmap/icon4"
+            android:title="抹醬吐司(厚片)" />
+        <item
+            android:id="@+id/call_toastthin"
+            android:icon="@mipmap/icon2"
+            android:title="抹醬吐司(薄片)" />
+        <item
+            android:id="@+id/call_firecake"
+            android:icon="@mipmap/icon6"
+            android:title="燒餅" />
+        <item
+            android:id="@+id/call_eggcake"
+            android:icon="@mipmap/icon13"
+            android:title="蛋餅" />
+        <item
+            android:id="@+id/call_noodleegg"
+            android:icon="@mipmap/icon8"
+            android:title="鐵板麵加蛋" />
+        <item
+            android:id="@+id/call_drink"
+            android:icon="@mipmap/icon5"
+            android:title="飲料" />
+        <item
+            android:id="@+id/call_desert"
+            android:icon="@mipmap/icon7"
+            android:title="點心" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
